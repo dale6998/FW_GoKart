@@ -18,11 +18,11 @@ things in cheap imported bottom-dollar whatch-the-sparks motor controls, then st
 
 ## Usage
 ```$ git clone https://github.com/dale6998/FW_GoKart.git
-```$ cd FW_GoKart
+   $ cd FW_GoKart
    $ make
-...
-Flash using whatever you wish.  I like OpenOCD and gdb, but other flashing environments should work too.
 ```
+Flash using whatever you wish.  I like OpenOCD and gdb, but other flashing environments should work too.
+
 ## Contributors
 
 ### Contributors on GitHub
