@@ -12,6 +12,16 @@ Anyway, that's not great for their necks, so this is a simple bit of code you ca
 the motor on or off.  If you like whipping your melon on the headrest every time you touch the gas, then by all means, don't let me keep you.  But, if you enjoy the finer
 things in cheap imported bottom-dollar whatch-the-sparks motor controls, then step this way.
 
+##### Improvements
+
+I want to add another mode that responds to another input.  There's this three position switch that controls forward and reverse, but forward has two speeds.
+
+This is probably achieved with the switching in (by moving the switch to open a parallel path) a resistor to help choke the motor current (think...I need to check).
+
+Obviously, this is kind of trashy in a battery powered system, so adding a mode to set the PWM max duty cycle to 50% or something like that is much more power efficient.
+
+The toggle for the current flow is handled by a separate portion of that three posistion switch (for forward and reverse), so the speed setting and directionality of the motor are already isolated in the switches wiring, so adding this functionality is a "read-the-hardware-only" type of situation, so it should be fairly straightforward to implements (two resistors and a zener for insurance ought to do it).
+
 #### Screenshot
 ## Behold the (Neck) Kracken!
 ![Screenshot software](https://i5.walmartimages.com/asr/b12fd4e6-a230-48ca-a588-b58e65d6c5d6_1.c6e39c4c21f71234ce7eaa1315832471.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF)
