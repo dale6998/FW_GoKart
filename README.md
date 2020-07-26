@@ -17,7 +17,8 @@ things in cheap imported bottom-dollar whatch-the-sparks motor controls, then st
 ![Screenshot software](https://i5.walmartimages.com/asr/b12fd4e6-a230-48ca-a588-b58e65d6c5d6_1.c6e39c4c21f71234ce7eaa1315832471.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF)
 
 ## Usage
-```$ git clone https://github.com/dale6998/FW_GoKart.git
+```
+   $ git clone https://github.com/dale6998/FW_GoKart.git
    $ cd FW_GoKart
    $ make
 ```
