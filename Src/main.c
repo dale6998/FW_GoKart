@@ -100,7 +100,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   RetargetInit(&huart2);
-  PWMDriver_Enable(&htim2);
+  PWMDriver_Enable();
 
   /* USER CODE END 2 */
 
