@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmNJ9sq.s 			page 1
+ARM GAS  /tmp/ccpRDcBg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       Once the device started from reset, the user application has to:
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       (+) Configure the clock source to be used to drive the System clock
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           (if the application needs higher frequency/performance)
-ARM GAS  /tmp/ccmNJ9sq.s 			page 2
+ARM GAS  /tmp/ccpRDcBg.s 			page 2
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       (+) Configure the System clock frequency and Flash settings
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** /* Private macro -------------------------------------------------------------*/
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** /** @defgroup RCC_Private_Macros RCC Private Macros
-ARM GAS  /tmp/ccmNJ9sq.s 			page 3
+ARM GAS  /tmp/ccpRDcBg.s 			page 3
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****              clock source.
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****          (+) HSE (high-speed external): 4 to 48 MHz crystal oscillator used directly or
-ARM GAS  /tmp/ccmNJ9sq.s 			page 4
+ARM GAS  /tmp/ccpRDcBg.s 			page 4
 
 
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****              through the PLL as System clock source. Can be used also optionally as RTC clock sourc
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****                 through PLLQ divider. You have to enable the peripheral clock and use
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****                 HAL_RCCEx_PeriphCLKConfig() function to configure this clock.
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****            (+@) IWDG clock which is always the LSI clock.
-ARM GAS  /tmp/ccmNJ9sq.s 			page 5
+ARM GAS  /tmp/ccpRDcBg.s 			page 5
 
 
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            - CSS, MCO1 OFF
  257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            - All interrupts disabled
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            - All interrupt and reset flags cleared
-ARM GAS  /tmp/ccmNJ9sq.s 			page 6
+ARM GAS  /tmp/ccpRDcBg.s 			page 6
 
 
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @note   This function does not modify the configuration of the
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  313:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   /* Reset HSION, HSIKERON, HSIASFS, HSEON, HSECSSON, PLLON, PLLSAIxON bits */
  314:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #if defined(RCC_PLLSAI2_SUPPORT)
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 7
+ARM GAS  /tmp/ccpRDcBg.s 			page 7
 
 
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   CLEAR_BIT(RCC->CR, RCC_CR_HSEON | RCC_CR_HSION | RCC_CR_HSIKERON| RCC_CR_HSIASFS | RCC_CR_PLLON |
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  370:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #endif /* RCC_PLLSAI2_SUPPORT */
  371:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   /* Reset HSEBYP bit */
-ARM GAS  /tmp/ccmNJ9sq.s 			page 8
+ARM GAS  /tmp/ccpRDcBg.s 			page 8
 
 
  373:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   CLEAR_BIT(RCC->CR, RCC_CR_HSEBYP);
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  427:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     /* Check if MSI is used as system clock or as PLL source when PLL is selected as system clock *
  428:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     if((sysclk_source == RCC_CFGR_SWS_MSI) ||
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****        ((sysclk_source == RCC_CFGR_SWS_PLL) && (pll_config == RCC_PLLSOURCE_MSI)))
-ARM GAS  /tmp/ccmNJ9sq.s 			page 9
+ARM GAS  /tmp/ccpRDcBg.s 			page 9
 
 
  430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  484:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       if(RCC_OscInitStruct->MSIState != RCC_MSI_OFF)
  485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         /* Enable the Internal High Speed oscillator (MSI). */
-ARM GAS  /tmp/ccmNJ9sq.s 			page 10
+ARM GAS  /tmp/ccpRDcBg.s 			page 10
 
 
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         __HAL_RCC_MSI_ENABLE();
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  541:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
  542:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       /* Set the new HSE configuration ---------------------------------------*/
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       __HAL_RCC_HSE_CONFIG(RCC_OscInitStruct->HSEState);
-ARM GAS  /tmp/ccmNJ9sq.s 			page 11
+ARM GAS  /tmp/ccpRDcBg.s 			page 11
 
 
  544:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  598:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     }
  599:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     else
  600:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 12
+ARM GAS  /tmp/ccpRDcBg.s 			page 12
 
 
  601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       /* Check the HSI State */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  655:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  656:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       if (RCC_OscInitStruct->LSIDiv != (csr_temp & RCC_CSR_LSIPREDIV))
  657:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 13
+ARM GAS  /tmp/ccpRDcBg.s 			page 13
 
 
  658:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         if (((csr_temp & RCC_CSR_LSIRDY) == RCC_CSR_LSIRDY) && \
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  712:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       /* Wait till LSI is disabled */
  713:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       while(READ_BIT(RCC->CSR, RCC_CSR_LSIRDY) != 0U)
  714:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 14
+ARM GAS  /tmp/ccpRDcBg.s 			page 14
 
 
  715:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         if((HAL_GetTick() - tickstart) > LSI_TIMEOUT_VALUE)
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  769:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
  770:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         /* LSE oscillator enable */
  771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         SET_BIT(RCC->BDCR, RCC_BDCR_LSEON);
-ARM GAS  /tmp/ccmNJ9sq.s 			page 15
+ARM GAS  /tmp/ccpRDcBg.s 			page 15
 
 
  772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       }
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   if(((RCC_OscInitStruct->OscillatorType) & RCC_OSCILLATORTYPE_HSI48) == RCC_OSCILLATORTYPE_HSI48)
  827:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
  828:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     /* Check the parameters */
-ARM GAS  /tmp/ccmNJ9sq.s 			page 16
+ARM GAS  /tmp/ccpRDcBg.s 			page 16
 
 
  829:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     assert_param(IS_RCC_HSI48(RCC_OscInitStruct->HSI48State));
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  883:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #if defined(RCC_PLLP_SUPPORT)
  884:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         assert_param(IS_RCC_PLLP_VALUE(RCC_OscInitStruct->PLL.PLLP));
  885:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #endif /* RCC_PLLP_SUPPORT */
-ARM GAS  /tmp/ccmNJ9sq.s 			page 17
+ARM GAS  /tmp/ccpRDcBg.s 			page 17
 
 
  886:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         assert_param(IS_RCC_PLLQ_VALUE(RCC_OscInitStruct->PLL.PLLQ));
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  940:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
  941:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           MODIFY_REG(RCC->PLLCFGR, RCC_PLLCFGR_PLLSRC, RCC_PLLSOURCE_NONE);
  942:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         }
-ARM GAS  /tmp/ccmNJ9sq.s 			page 18
+ARM GAS  /tmp/ccpRDcBg.s 			page 18
 
 
  943:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #elif defined(RCC_PLLSAI1_SUPPORT)
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  997:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           return HAL_ERROR;
  998:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         }
  999:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       }
-ARM GAS  /tmp/ccmNJ9sq.s 			page 19
+ARM GAS  /tmp/ccpRDcBg.s 			page 19
 
 
 1000:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     }
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1054:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   */
 1055:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency)
 1056:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 20
+ARM GAS  /tmp/ccpRDcBg.s 			page 20
 
 
 1057:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   uint32_t tickstart;
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1111:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           /* Intermediate step with HCLK prescaler 2 necessary before to go over 80Mhz */
 1112:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           MODIFY_REG(RCC->CFGR, RCC_CFGR_HPRE, RCC_SYSCLK_DIV2);
 1113:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           hpre = RCC_SYSCLK_DIV2;
-ARM GAS  /tmp/ccmNJ9sq.s 			page 21
+ARM GAS  /tmp/ccpRDcBg.s 			page 21
 
 
 1114:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         }
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1168:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
 1169:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_SW, RCC_ClkInitStruct->SYSCLKSource);
 1170:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 22
+ARM GAS  /tmp/ccpRDcBg.s 			page 22
 
 
 1171:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     /* Get Start Tick*/
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1225:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_PPRE2, ((RCC_ClkInitStruct->APB2CLKDivider) << 3U));
 1226:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   }
 1227:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 23
+ARM GAS  /tmp/ccpRDcBg.s 			page 23
 
 
 1228:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   /* Update the SystemCoreClock global variable */
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1282:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            @arg @ref RCC_MCODIV_4  division by 4 applied to MCO clock
 1283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            @arg @ref RCC_MCODIV_8  division by 8 applied to MCO clock
 1284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *            @arg @ref RCC_MCODIV_16  division by 16 applied to MCO clock
-ARM GAS  /tmp/ccmNJ9sq.s 			page 24
+ARM GAS  /tmp/ccpRDcBg.s 			page 24
 
 
 1285:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @retval None
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1339:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *
 1340:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @note   Each time SYSCLK changes, this function must be called to update the
 1341:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *         right SYSCLK value. Otherwise, any configuration based on this function will be incorre
-ARM GAS  /tmp/ccmNJ9sq.s 			page 25
+ARM GAS  /tmp/ccpRDcBg.s 			page 25
 
 
 1342:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1396:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
 1397:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     /* PLL_VCO = (HSE_VALUE or HSI_VALUE or MSI_VALUE) * PLLN / PLLM
 1398:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     SYSCLK = PLL_VCO / PLLR
-ARM GAS  /tmp/ccmNJ9sq.s 			page 26
+ARM GAS  /tmp/ccpRDcBg.s 			page 26
 
 
 1399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     */
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1453:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @note   Each time PCLK2 changes, this function must be called to update the
 1454:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *         right PCLK2 value. Otherwise, any configuration based on this function will be incorrec
 1455:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @retval PCLK2 frequency in Hz
-ARM GAS  /tmp/ccmNJ9sq.s 			page 27
+ARM GAS  /tmp/ccpRDcBg.s 			page 27
 
 
 1456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   */
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1510:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
 1511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   /* Get the HSI configuration -----------------------------------------------*/
 1512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   if(READ_BIT(RCC->CR, RCC_CR_HSION) == RCC_CR_HSION)
-ARM GAS  /tmp/ccmNJ9sq.s 			page 28
+ARM GAS  /tmp/ccpRDcBg.s 			page 28
 
 
 1513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1567:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   if((RCC->CSR & RCC_CSR_LSIPREDIV) == RCC_CSR_LSIPREDIV)
 1568:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
 1569:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     RCC_OscInitStruct->LSIDiv = RCC_LSI_DIV128;
-ARM GAS  /tmp/ccmNJ9sq.s 			page 29
+ARM GAS  /tmp/ccpRDcBg.s 			page 29
 
 
 1570:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   }
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @param  RCC_ClkInitStruct  pointer to an RCC_ClkInitTypeDef structure that
 1625:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   *         will be configured.
 1626:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @param  pFLatency  Pointer on the Flash Latency.
-ARM GAS  /tmp/ccmNJ9sq.s 			page 30
+ARM GAS  /tmp/ccpRDcBg.s 			page 30
 
 
 1627:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   * @retval None
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
 1682:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     /* Clear RCC CSS pending bit */
 1683:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     __HAL_RCC_CLEAR_IT(RCC_IT_CSS);
-ARM GAS  /tmp/ccmNJ9sq.s 			page 31
+ARM GAS  /tmp/ccpRDcBg.s 			page 31
 
 
 1684:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   }
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1720:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
 1721:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   if(__HAL_RCC_PWR_IS_CLK_ENABLED())
   47              		.loc 1 1721 3 view .LVU4
-ARM GAS  /tmp/ccmNJ9sq.s 			page 32
+ARM GAS  /tmp/ccpRDcBg.s 			page 32
 
 
   48              		.loc 1 1721 6 is_stmt 0 view .LVU5
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1761:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
 1762:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         /* MSI 8Mhz */
 1763:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         latency = FLASH_LATENCY_1; /* 1WS */
-ARM GAS  /tmp/ccmNJ9sq.s 			page 33
+ARM GAS  /tmp/ccpRDcBg.s 			page 33
 
 
 1764:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       }
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1727:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     vos = HAL_PWREx_GetVoltageRange();
   94              		.loc 1 1727 5 view .LVU23
 1728:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     __HAL_RCC_PWR_CLK_DISABLE();
-ARM GAS  /tmp/ccmNJ9sq.s 			page 34
+ARM GAS  /tmp/ccpRDcBg.s 			page 34
 
 
   95              		.loc 1 1728 5 view .LVU24
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  129              		.loc 1 1790 3 is_stmt 1 view .LVU35
  130 0060 0A4A     		ldr	r2, .L15+4
  131 0062 1368     		ldr	r3, [r2]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 35
+ARM GAS  /tmp/ccpRDcBg.s 			page 35
 
 
  132 0064 23F00703 		bic	r3, r3, #7
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  172              		.align	2
  173              	.L15:
  174 0088 00100240 		.word	1073876992
-ARM GAS  /tmp/ccmNJ9sq.s 			page 36
+ARM GAS  /tmp/ccpRDcBg.s 			page 36
 
 
  175 008c 00200240 		.word	1073881088
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  221              		.loc 1 279 5 is_stmt 1 view .LVU54
  279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
  222              		.loc 1 279 9 is_stmt 0 view .LVU55
-ARM GAS  /tmp/ccmNJ9sq.s 			page 37
+ARM GAS  /tmp/ccpRDcBg.s 			page 37
 
 
  223 001c FFF7FEFF 		bl	HAL_GetTick
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  264              		.loc 1 297 12 view .LVU68
  265 0050 0124     		movs	r4, #1
  266 0052 E9E7     		b	.L19
-ARM GAS  /tmp/ccmNJ9sq.s 			page 38
+ARM GAS  /tmp/ccpRDcBg.s 			page 38
 
 
  267              	.L31:
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  307 0084 0546     		mov	r5, r0
  308              	.LVL21:
  338:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 39
+ARM GAS  /tmp/ccpRDcBg.s 			page 39
 
 
  309              		.loc 1 338 3 is_stmt 1 view .LVU83
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  349              		.loc 1 376 3 view .LVU97
  350 00be 9A61     		str	r2, [r3, #24]
  379:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 40
+ARM GAS  /tmp/ccpRDcBg.s 			page 40
 
 
  351              		.loc 1 379 3 view .LVU98
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  398              		.cfi_offset 6, -8
  399              		.cfi_offset 14, -4
  400 0002 86B0     		sub	sp, sp, #24
-ARM GAS  /tmp/ccmNJ9sq.s 			page 41
+ARM GAS  /tmp/ccpRDcBg.s 			page 41
 
 
  401              	.LCFI6:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  442 0044 08D0     		beq	.L39
 1294:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  443              		.loc 1 1294 3 discriminator 6 view .LVU117
-ARM GAS  /tmp/ccmNJ9sq.s 			page 42
+ARM GAS  /tmp/ccpRDcBg.s 			page 42
 
 
  444 0046 B5F1C06F 		cmp	r5, #100663296
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1306:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   GPIO_InitStruct.Alternate = GPIO_AF0_MCO;
  482              		.loc 1 1306 24 is_stmt 0 view .LVU134
  483 0078 0023     		movs	r3, #0
-ARM GAS  /tmp/ccmNJ9sq.s 			page 43
+ARM GAS  /tmp/ccpRDcBg.s 			page 43
 
 
  484 007a 0393     		str	r3, [sp, #12]
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  527 00aa FFF7FEFF 		bl	assert_failed
  528              	.LVL31:
  529 00ae BAE7     		b	.L38
-ARM GAS  /tmp/ccmNJ9sq.s 			page 44
+ARM GAS  /tmp/ccpRDcBg.s 			page 44
 
 
  530              	.L43:
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  575              		.loc 1 1355 3 is_stmt 1 view .LVU156
 1355:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****      ((sysclk_source == RCC_CFGR_SWS_PLL) && (pll_oscsource == RCC_PLLSOURCE_MSI)))
  576              		.loc 1 1355 5 is_stmt 0 view .LVU157
-ARM GAS  /tmp/ccmNJ9sq.s 			page 45
+ARM GAS  /tmp/ccpRDcBg.s 			page 45
 
 
  577 000a 13F00C03 		ands	r3, r3, #12
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1363:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     }
  616              		.loc 1 1363 18 is_stmt 0 view .LVU173
  617 0030 1C4A     		ldr	r2, .L60
-ARM GAS  /tmp/ccmNJ9sq.s 			page 46
+ARM GAS  /tmp/ccpRDcBg.s 			page 46
 
 
  618 0032 D2F89420 		ldr	r2, [r2, #148]
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  657 0054 1046     		mov	r0, r2
  658 0056 F5E7     		b	.L51
  659              	.LVL46:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 47
+ARM GAS  /tmp/ccpRDcBg.s 			page 47
 
 
  660              	.L55:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  700 0078 C868     		ldr	r0, [r1, #12]
  701              	.LVL54:
 1417:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     pllvco = (pllvco * (READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos)) / pllm;
-ARM GAS  /tmp/ccmNJ9sq.s 			page 48
+ARM GAS  /tmp/ccpRDcBg.s 			page 48
 
 
  702              		.loc 1 1417 54 view .LVU203
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1402:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
  740              		.loc 1 1402 5 view .LVU220
  741 00a0 E9E7     		b	.L53
-ARM GAS  /tmp/ccmNJ9sq.s 			page 49
+ARM GAS  /tmp/ccpRDcBg.s 			page 49
 
 
  742              	.L61:
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  414:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  790              		.loc 1 414 3 is_stmt 0 discriminator 1 view .LVU229
  791 0010 13F03F0F 		tst	r3, #63
-ARM GAS  /tmp/ccmNJ9sq.s 			page 50
+ARM GAS  /tmp/ccpRDcBg.s 			page 50
 
 
  792 0014 46D0     		beq	.L184
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  832 0044 11D0     		beq	.L68
  425:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  833              		.loc 1 425 5 discriminator 3 view .LVU244
-ARM GAS  /tmp/ccmNJ9sq.s 			page 51
+ARM GAS  /tmp/ccpRDcBg.s 			page 51
 
 
  834 0046 302B     		cmp	r3, #48
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  874 0076 00F0D980 		beq	.L76
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  875              		.loc 1 487 9 is_stmt 1 view .LVU259
-ARM GAS  /tmp/ccmNJ9sq.s 			page 52
+ARM GAS  /tmp/ccpRDcBg.s 			page 52
 
 
  876 007a 794A     		ldr	r2, .L217
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  917              	.LVL72:
  918              	.L185:
  423:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     assert_param(IS_RCC_MSICALIBRATION_VALUE(RCC_OscInitStruct->MSICalibrationValue));
-ARM GAS  /tmp/ccmNJ9sq.s 			page 53
+ARM GAS  /tmp/ccpRDcBg.s 			page 53
 
 
  919              		.loc 1 423 5 discriminator 1 view .LVU273
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  962 00ee 1B68     		ldr	r3, [r3]
  963 00f0 13F0080F 		tst	r3, #8
  964 00f4 67D0     		beq	.L72
-ARM GAS  /tmp/ccmNJ9sq.s 			page 54
+ARM GAS  /tmp/ccpRDcBg.s 			page 54
 
 
  442:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1006 0136 9B68     		ldr	r3, [r3, #8]
  471:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  1007              		.loc 1 471 106 view .LVU298
-ARM GAS  /tmp/ccmNJ9sq.s 			page 55
+ARM GAS  /tmp/ccpRDcBg.s 			page 55
 
 
  1008 0138 C3F30313 		ubfx	r3, r3, #4, #4
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1047              		.loc 1 532 5 is_stmt 1 view .LVU313
  532:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****        ((sysclk_source == RCC_CFGR_SWS_PLL) && (pll_config == RCC_PLLSOURCE_HSE)))
  1048              		.loc 1 532 7 is_stmt 0 view .LVU314
-ARM GAS  /tmp/ccmNJ9sq.s 			page 56
+ARM GAS  /tmp/ccpRDcBg.s 			page 56
 
 
  1049 0172 082D     		cmp	r5, #8
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  552:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
  1089              		.loc 1 552 15 is_stmt 0 view .LVU329
  1090 01ae 2C4B     		ldr	r3, .L217
-ARM GAS  /tmp/ccmNJ9sq.s 			page 57
+ARM GAS  /tmp/ccpRDcBg.s 			page 57
 
 
  1091 01b0 1B68     		ldr	r3, [r3]
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1133 01f2 42EA0122 		orr	r2, r2, r1, lsl #8
  1134 01f6 5A60     		str	r2, [r3, #4]
  464:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 58
+ARM GAS  /tmp/ccpRDcBg.s 			page 58
 
 
  1135              		.loc 1 464 11 view .LVU342
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1178              	.LVL87:
  1179 023a 0746     		mov	r7, r0
  1180              	.LVL88:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 59
+ARM GAS  /tmp/ccpRDcBg.s 			page 59
 
 
  515:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1223              		.loc 1 535 7 is_stmt 1 view .LVU365
  535:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
  1224              		.loc 1 535 11 is_stmt 0 view .LVU366
-ARM GAS  /tmp/ccmNJ9sq.s 			page 60
+ARM GAS  /tmp/ccpRDcBg.s 			page 60
 
 
  1225 0278 AA4B     		ldr	r3, .L219
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  602:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
  1265              		.loc 1 602 9 view .LVU381
  1266 02ac 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccmNJ9sq.s 			page 61
+ARM GAS  /tmp/ccpRDcBg.s 			page 61
 
 
  1267 02ae 7ED0     		beq	.L99
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1308              	.L193:
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  1309              		.loc 1 543 7 discriminator 4 view .LVU395
-ARM GAS  /tmp/ccmNJ9sq.s 			page 62
+ARM GAS  /tmp/ccpRDcBg.s 			page 62
 
 
  1310 02e4 03F18043 		add	r3, r3, #1073741824
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1351 031c 4FF41171 		mov	r1, #580
  1352 0320 8148     		ldr	r0, .L219+4
  1353 0322 FFF7FEFF 		bl	assert_failed
-ARM GAS  /tmp/ccmNJ9sq.s 			page 63
+ARM GAS  /tmp/ccpRDcBg.s 			page 63
 
 
  1354              	.LVL100:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1396              		.loc 1 645 5 is_stmt 1 view .LVU420
  1397 0362 6369     		ldr	r3, [r4, #20]
  1398 0364 012B     		cmp	r3, #1
-ARM GAS  /tmp/ccmNJ9sq.s 			page 64
+ARM GAS  /tmp/ccpRDcBg.s 			page 64
 
 
  1399 0366 36D8     		bhi	.L199
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1438 039a 0CE2     		b	.L63
  1439              	.L198:
  620:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       }
-ARM GAS  /tmp/ccmNJ9sq.s 			page 65
+ARM GAS  /tmp/ccpRDcBg.s 			page 65
 
 
  1440              		.loc 1 620 9 is_stmt 1 view .LVU436
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1482              	.LVL110:
  1483              	.L199:
  645:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 66
+ARM GAS  /tmp/ccpRDcBg.s 			page 66
 
 
  1484              		.loc 1 645 5 discriminator 1 view .LVU449
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1525              		.loc 1 723 3 is_stmt 1 view .LVU462
  723:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
  1526              		.loc 1 723 25 is_stmt 0 view .LVU463
-ARM GAS  /tmp/ccmNJ9sq.s 			page 67
+ARM GAS  /tmp/ccpRDcBg.s 			page 67
 
 
  1527 0410 2368     		ldr	r3, [r4]
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  735:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     }
  1567              		.loc 1 735 21 is_stmt 0 view .LVU478
  1568 0442 0126     		movs	r6, #1
-ARM GAS  /tmp/ccmNJ9sq.s 			page 68
+ARM GAS  /tmp/ccpRDcBg.s 			page 68
 
 
  1569              	.LVL118:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1609              	.LVL120:
  790:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****       {
  1610              		.loc 1 790 7 is_stmt 1 view .LVU493
-ARM GAS  /tmp/ccmNJ9sq.s 			page 69
+ARM GAS  /tmp/ccpRDcBg.s 			page 69
 
 
  1611              	.L121:
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1652              		.loc 1 744 19 is_stmt 0 view .LVU506
  1653 04b6 FFF7FEFF 		bl	HAL_GetTick
  1654              	.LVL125:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 70
+ARM GAS  /tmp/ccpRDcBg.s 			page 70
 
 
  1655 04ba 0746     		mov	r7, r0
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1697              	.L120:
  801:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  1698              		.loc 1 801 7 view .LVU519
-ARM GAS  /tmp/ccmNJ9sq.s 			page 71
+ARM GAS  /tmp/ccpRDcBg.s 			page 71
 
 
  801:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
  1740              		.loc 1 826 3 is_stmt 1 view .LVU533
  826:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 72
+ARM GAS  /tmp/ccpRDcBg.s 			page 72
 
 
  1741              		.loc 1 826 25 is_stmt 0 view .LVU534
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1780              		.loc 1 843 27 view .LVU549
  1781 0568 801B     		subs	r0, r0, r6
  843:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
-ARM GAS  /tmp/ccmNJ9sq.s 			page 73
+ARM GAS  /tmp/ccpRDcBg.s 			page 73
 
 
  1782              		.loc 1 843 11 view .LVU550
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1825              		.loc 1 858 12 view .LVU561
  1826 05a4 13F0020F 		tst	r3, #2
  1827 05a8 06D0     		beq	.L126
-ARM GAS  /tmp/ccmNJ9sq.s 			page 74
+ARM GAS  /tmp/ccpRDcBg.s 			page 74
 
 
  860:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  944:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
  1867              		.loc 1 944 12 is_stmt 0 view .LVU577
  1868 05da 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 75
+ARM GAS  /tmp/ccpRDcBg.s 			page 75
 
 
  944:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1909 0616 0320     		movs	r0, #3
  1910 0618 CDE0     		b	.L63
  1911              	.LVL146:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 76
+ARM GAS  /tmp/ccpRDcBg.s 			page 76
 
 
  1912              	.L206:
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  887:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  1957              		.loc 1 887 9 is_stmt 1 view .LVU601
  1958 0656 236C     		ldr	r3, [r4, #64]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 77
+ARM GAS  /tmp/ccpRDcBg.s 			page 77
 
 
  1959 0658 022B     		cmp	r3, #2
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  1999 068a F5D9     		bls	.L142
  900:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           }
  2000              		.loc 1 900 20 view .LVU616
-ARM GAS  /tmp/ccmNJ9sq.s 			page 78
+ARM GAS  /tmp/ccpRDcBg.s 			page 78
 
 
  2001 068c 0320     		movs	r0, #3
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2048              		.loc 1 905 9 is_stmt 1 view .LVU623
  2049 06d8 3F4A     		ldr	r2, .L221
  2050 06da D368     		ldr	r3, [r2, #12]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 79
+ARM GAS  /tmp/ccpRDcBg.s 			page 79
 
 
  2051 06dc 4049     		ldr	r1, .L221+8
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2095              		.loc 1 926 15 is_stmt 0 view .LVU633
  2096 072e FFF7FEFF 		bl	HAL_GetTick
  2097              	.LVL161:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 80
+ARM GAS  /tmp/ccpRDcBg.s 			page 80
 
 
  926:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****           {
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2137 075a 216B     		ldr	r1, [r4, #48]
  985:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****            (READ_BIT(pll_config, RCC_PLLCFGR_PLLN)    != (RCC_OscInitStruct->PLL.PLLN << RCC_PLLCFG
  2138              		.loc 1 985 88 discriminator 1 view .LVU649
-ARM GAS  /tmp/ccmNJ9sq.s 			page 81
+ARM GAS  /tmp/ccpRDcBg.s 			page 81
 
 
  2139 075c 0139     		subs	r1, r1, #1
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  994:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****            (READ_BIT(pll_config, RCC_PLLCFGR_PLLR)    != ((((RCC_OscInitStruct->PLL.PLLR) >> 1U) - 
  2177              		.loc 1 994 130 view .LVU666
  2178 0796 B3EB426F 		cmp	r3, r2, lsl #25
-ARM GAS  /tmp/ccmNJ9sq.s 			page 82
+ARM GAS  /tmp/ccpRDcBg.s 			page 82
 
 
  2179 079a 1AD1     		bne	.L179
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2225              	.LVL170:
  2226              	.L63:
 1003:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 83
+ARM GAS  /tmp/ccpRDcBg.s 			page 83
 
 
  2227              		.loc 1 1003 1 view .LVU675
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2280              	HAL_RCC_ClockConfig:
  2281              	.LVL174:
  2282              	.LFB132:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 84
+ARM GAS  /tmp/ccpRDcBg.s 			page 84
 
 
 1056:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   uint32_t tickstart;
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2325 0028 23F00703 		bic	r3, r3, #7
  2326 002c 2B43     		orrs	r3, r3, r5
  2327 002e 1360     		str	r3, [r2]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 85
+ARM GAS  /tmp/ccpRDcBg.s 			page 85
 
 
 1085:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     {
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2365              		.loc 1 1143 11 view .LVU707
  2366 005c 12F0020F 		tst	r2, #2
  2367 0060 19D1     		bne	.L231
-ARM GAS  /tmp/ccmNJ9sq.s 			page 86
+ARM GAS  /tmp/ccpRDcBg.s 			page 86
 
 
 1145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         }
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1172:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
  2412              		.loc 1 1172 5 view .LVU718
 1172:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 87
+ARM GAS  /tmp/ccpRDcBg.s 			page 87
 
 
  2413              		.loc 1 1172 17 is_stmt 0 view .LVU719
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2453 00d4 0120     		movs	r0, #1
  2454 00d6 78E0     		b	.L224
  2455              	.L233:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 88
+ARM GAS  /tmp/ccpRDcBg.s 			page 88
 
 
 1152:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****         {
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2495 010a E02B     		cmp	r3, #224
  2496 010c 01D0     		beq	.L237
 1186:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_HPRE, RCC_ClkInitStruct->AHBCLKDivider);
-ARM GAS  /tmp/ccmNJ9sq.s 			page 89
+ARM GAS  /tmp/ccpRDcBg.s 			page 89
 
 
  2497              		.loc 1 1186 5 discriminator 8 view .LVU749
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2539 014c 5BB1     		cbz	r3, .L240
 1217:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_PPRE1, RCC_ClkInitStruct->APB1CLKDivider);
  2540              		.loc 1 1217 5 is_stmt 0 discriminator 1 view .LVU762
-ARM GAS  /tmp/ccmNJ9sq.s 			page 90
+ARM GAS  /tmp/ccpRDcBg.s 			page 90
 
 
  2541 014e B3F5806F 		cmp	r3, #1024
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1225:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   }
  2583              		.loc 1 1225 5 is_stmt 1 view .LVU775
  2584 0198 1A4A     		ldr	r2, .L264+4
-ARM GAS  /tmp/ccmNJ9sq.s 			page 91
+ARM GAS  /tmp/ccpRDcBg.s 			page 91
 
 
  2585 019a 9368     		ldr	r3, [r2, #8]
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2626              	.LVL189:
  2627 01d6 9CE7     		b	.L237
  2628              	.L262:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 92
+ARM GAS  /tmp/ccpRDcBg.s 			page 92
 
 
 1217:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_PPRE1, RCC_ClkInitStruct->APB1CLKDivider);
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2676              	.L264:
  2677 0200 00200240 		.word	1073881088
  2678 0204 00100240 		.word	1073876992
-ARM GAS  /tmp/ccmNJ9sq.s 			page 93
+ARM GAS  /tmp/ccpRDcBg.s 			page 93
 
 
  2679 0208 00000000 		.word	.LC0
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2732              		.loc 1 1448 3 view .LVU800
 1448:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** }
  2733              		.loc 1 1448 11 is_stmt 0 view .LVU801
-ARM GAS  /tmp/ccmNJ9sq.s 			page 94
+ARM GAS  /tmp/ccpRDcBg.s 			page 94
 
 
  2734 0002 FFF7FEFF 		bl	HAL_RCC_GetHCLKFreq
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2781 0006 054B     		ldr	r3, .L275
  2782 0008 9B68     		ldr	r3, [r3, #8]
 1460:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** }
-ARM GAS  /tmp/ccmNJ9sq.s 			page 95
+ARM GAS  /tmp/ccpRDcBg.s 			page 95
 
 
  2783              		.loc 1 1460 86 view .LVU811
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2831 000a 2360     		str	r3, [r4]
 1485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
  2832              		.loc 1 1485 3 is_stmt 1 view .LVU820
-ARM GAS  /tmp/ccmNJ9sq.s 			page 96
+ARM GAS  /tmp/ccpRDcBg.s 			page 96
 
 
 1485:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2870              		.loc 1 1512 3 is_stmt 1 view .LVU837
 1512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
  2871              		.loc 1 1512 6 is_stmt 0 view .LVU838
-ARM GAS  /tmp/ccmNJ9sq.s 			page 97
+ARM GAS  /tmp/ccpRDcBg.s 			page 97
 
 
  2872 003c 1B68     		ldr	r3, [r3]
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2909 006e 0123     		movs	r3, #1
  2910 0070 6361     		str	r3, [r4, #20]
  2911              	.L290:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 98
+ARM GAS  /tmp/ccpRDcBg.s 			page 98
 
 
 1579:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   {
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  2949 00a0 0133     		adds	r3, r3, #1
 1601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c ****   RCC_OscInitStruct->PLL.PLLN = READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos;
  2950              		.loc 1 1601 31 view .LVU873
-ARM GAS  /tmp/ccmNJ9sq.s 			page 99
+ARM GAS  /tmp/ccpRDcBg.s 			page 99
 
 
  2951 00a2 2363     		str	r3, [r4, #48]
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
 1607:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** #else
  2986              		.loc 1 1607 31 view .LVU893
  2987 00c8 A363     		str	r3, [r4, #56]
-ARM GAS  /tmp/ccmNJ9sq.s 			page 100
+ARM GAS  /tmp/ccpRDcBg.s 			page 100
 
 
 1619:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3028 00f6 0023     		movs	r3, #0
  3029 00f8 E360     		str	r3, [r4, #12]
  3030 00fa A6E7     		b	.L285
-ARM GAS  /tmp/ccmNJ9sq.s 			page 101
+ARM GAS  /tmp/ccpRDcBg.s 			page 101
 
 
  3031              	.L286:
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3072 012c 00000000 		.word	.LC0
  3073              		.cfi_endproc
  3074              	.LFE138:
-ARM GAS  /tmp/ccmNJ9sq.s 			page 102
+ARM GAS  /tmp/ccpRDcBg.s 			page 102
 
 
  3076              		.section	.text.HAL_RCC_GetClockConfig,"ax",%progbits
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3120              		.loc 1 1642 38 is_stmt 0 view .LVU931
  3121 0018 9A68     		ldr	r2, [r3, #8]
  3122 001a 02F0F002 		and	r2, r2, #240
-ARM GAS  /tmp/ccmNJ9sq.s 			page 103
+ARM GAS  /tmp/ccpRDcBg.s 			page 103
 
 
 1642:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3161              		.loc 1 1633 3 discriminator 1 view .LVU947
  3162 004a 40F26161 		movw	r1, #1633
  3163 004e 0448     		ldr	r0, .L305+8
-ARM GAS  /tmp/ccmNJ9sq.s 			page 104
+ARM GAS  /tmp/ccpRDcBg.s 			page 104
 
 
  3164 0050 FFF7FEFF 		bl	assert_failed
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3218              		@ frame_needed = 0, uses_anonymous_args = 0
  3219              		@ link register save eliminated.
 1696:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c **** 
-ARM GAS  /tmp/ccmNJ9sq.s 			page 105
+ARM GAS  /tmp/ccpRDcBg.s 			page 105
 
 
  3220              		.loc 1 1696 1 view .LVU952
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3268              		.cfi_endproc
  3269              	.LFE141:
  3271              		.text
-ARM GAS  /tmp/ccmNJ9sq.s 			page 106
+ARM GAS  /tmp/ccpRDcBg.s 			page 106
 
 
  3272              	.Letext0:
@@ -6313,57 +6313,57 @@ ARM GAS  /tmp/ccmNJ9sq.s 			page 1
  3281              		.file 10 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  3282              		.file 11 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
  3283              		.file 12 "Inc/stm32l4xx_hal_conf.h"
-ARM GAS  /tmp/ccmNJ9sq.s 			page 107
+ARM GAS  /tmp/ccpRDcBg.s 			page 107
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_rcc.c
-     /tmp/ccmNJ9sq.s:18     .text.RCC_SetFlashLatencyFromMSIRange:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:25     .text.RCC_SetFlashLatencyFromMSIRange:0000000000000000 RCC_SetFlashLatencyFromMSIRange
-     /tmp/ccmNJ9sq.s:174    .text.RCC_SetFlashLatencyFromMSIRange:0000000000000088 $d
-     /tmp/ccmNJ9sq.s:180    .text.HAL_RCC_DeInit:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:187    .text.HAL_RCC_DeInit:0000000000000000 HAL_RCC_DeInit
-     /tmp/ccmNJ9sq.s:364    .text.HAL_RCC_DeInit:00000000000000d4 $d
-     /tmp/ccmNJ9sq.s:373    .rodata.HAL_RCC_MCOConfig.str1.4:0000000000000000 $d
-     /tmp/ccmNJ9sq.s:378    .text.HAL_RCC_MCOConfig:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:385    .text.HAL_RCC_MCOConfig:0000000000000000 HAL_RCC_MCOConfig
-     /tmp/ccmNJ9sq.s:540    .text.HAL_RCC_MCOConfig:00000000000000bc $d
-     /tmp/ccmNJ9sq.s:546    .text.HAL_RCC_GetSysClockFreq:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:553    .text.HAL_RCC_GetSysClockFreq:0000000000000000 HAL_RCC_GetSysClockFreq
-     /tmp/ccmNJ9sq.s:745    .text.HAL_RCC_GetSysClockFreq:00000000000000a4 $d
-     /tmp/ccmNJ9sq.s:753    .text.HAL_RCC_OscConfig:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:760    .text.HAL_RCC_OscConfig:0000000000000000 HAL_RCC_OscConfig
-     /tmp/ccmNJ9sq.s:1213   .text.HAL_RCC_OscConfig:0000000000000260 $d
-     /tmp/ccmNJ9sq.s:1220   .text.HAL_RCC_OscConfig:0000000000000274 $t
-     /tmp/ccmNJ9sq.s:1729   .text.HAL_RCC_OscConfig:0000000000000524 $d
-     /tmp/ccmNJ9sq.s:1735   .text.HAL_RCC_OscConfig:0000000000000530 $t
-     /tmp/ccmNJ9sq.s:2266   .text.HAL_RCC_OscConfig:00000000000007d8 $d
-     /tmp/ccmNJ9sq.s:2273   .text.HAL_RCC_ClockConfig:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:2280   .text.HAL_RCC_ClockConfig:0000000000000000 HAL_RCC_ClockConfig
-     /tmp/ccmNJ9sq.s:2677   .text.HAL_RCC_ClockConfig:0000000000000200 $d
-     /tmp/ccmNJ9sq.s:2687   .text.HAL_RCC_GetHCLKFreq:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:2694   .text.HAL_RCC_GetHCLKFreq:0000000000000000 HAL_RCC_GetHCLKFreq
-     /tmp/ccmNJ9sq.s:2709   .text.HAL_RCC_GetHCLKFreq:0000000000000008 $d
-     /tmp/ccmNJ9sq.s:2714   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:2721   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 HAL_RCC_GetPCLK1Freq
-     /tmp/ccmNJ9sq.s:2752   .text.HAL_RCC_GetPCLK1Freq:000000000000001c $d
-     /tmp/ccmNJ9sq.s:2758   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:2765   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 HAL_RCC_GetPCLK2Freq
-     /tmp/ccmNJ9sq.s:2796   .text.HAL_RCC_GetPCLK2Freq:000000000000001c $d
-     /tmp/ccmNJ9sq.s:2802   .text.HAL_RCC_GetOscConfig:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:2809   .text.HAL_RCC_GetOscConfig:0000000000000000 HAL_RCC_GetOscConfig
-     /tmp/ccmNJ9sq.s:3071   .text.HAL_RCC_GetOscConfig:0000000000000128 $d
-     /tmp/ccmNJ9sq.s:3077   .text.HAL_RCC_GetClockConfig:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:3084   .text.HAL_RCC_GetClockConfig:0000000000000000 HAL_RCC_GetClockConfig
-     /tmp/ccmNJ9sq.s:3170   .text.HAL_RCC_GetClockConfig:0000000000000058 $d
-     /tmp/ccmNJ9sq.s:3177   .text.HAL_RCC_EnableCSS:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:3184   .text.HAL_RCC_EnableCSS:0000000000000000 HAL_RCC_EnableCSS
-     /tmp/ccmNJ9sq.s:3201   .text.HAL_RCC_EnableCSS:000000000000000c $d
-     /tmp/ccmNJ9sq.s:3206   .text.HAL_RCC_CSSCallback:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:3213   .text.HAL_RCC_CSSCallback:0000000000000000 HAL_RCC_CSSCallback
-     /tmp/ccmNJ9sq.s:3226   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 $t
-     /tmp/ccmNJ9sq.s:3233   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 HAL_RCC_NMI_IRQHandler
-     /tmp/ccmNJ9sq.s:3267   .text.HAL_RCC_NMI_IRQHandler:000000000000001c $d
+     /tmp/ccpRDcBg.s:18     .text.RCC_SetFlashLatencyFromMSIRange:0000000000000000 $t
+     /tmp/ccpRDcBg.s:25     .text.RCC_SetFlashLatencyFromMSIRange:0000000000000000 RCC_SetFlashLatencyFromMSIRange
+     /tmp/ccpRDcBg.s:174    .text.RCC_SetFlashLatencyFromMSIRange:0000000000000088 $d
+     /tmp/ccpRDcBg.s:180    .text.HAL_RCC_DeInit:0000000000000000 $t
+     /tmp/ccpRDcBg.s:187    .text.HAL_RCC_DeInit:0000000000000000 HAL_RCC_DeInit
+     /tmp/ccpRDcBg.s:364    .text.HAL_RCC_DeInit:00000000000000d4 $d
+     /tmp/ccpRDcBg.s:373    .rodata.HAL_RCC_MCOConfig.str1.4:0000000000000000 $d
+     /tmp/ccpRDcBg.s:378    .text.HAL_RCC_MCOConfig:0000000000000000 $t
+     /tmp/ccpRDcBg.s:385    .text.HAL_RCC_MCOConfig:0000000000000000 HAL_RCC_MCOConfig
+     /tmp/ccpRDcBg.s:540    .text.HAL_RCC_MCOConfig:00000000000000bc $d
+     /tmp/ccpRDcBg.s:546    .text.HAL_RCC_GetSysClockFreq:0000000000000000 $t
+     /tmp/ccpRDcBg.s:553    .text.HAL_RCC_GetSysClockFreq:0000000000000000 HAL_RCC_GetSysClockFreq
+     /tmp/ccpRDcBg.s:745    .text.HAL_RCC_GetSysClockFreq:00000000000000a4 $d
+     /tmp/ccpRDcBg.s:753    .text.HAL_RCC_OscConfig:0000000000000000 $t
+     /tmp/ccpRDcBg.s:760    .text.HAL_RCC_OscConfig:0000000000000000 HAL_RCC_OscConfig
+     /tmp/ccpRDcBg.s:1213   .text.HAL_RCC_OscConfig:0000000000000260 $d
+     /tmp/ccpRDcBg.s:1220   .text.HAL_RCC_OscConfig:0000000000000274 $t
+     /tmp/ccpRDcBg.s:1729   .text.HAL_RCC_OscConfig:0000000000000524 $d
+     /tmp/ccpRDcBg.s:1735   .text.HAL_RCC_OscConfig:0000000000000530 $t
+     /tmp/ccpRDcBg.s:2266   .text.HAL_RCC_OscConfig:00000000000007d8 $d
+     /tmp/ccpRDcBg.s:2273   .text.HAL_RCC_ClockConfig:0000000000000000 $t
+     /tmp/ccpRDcBg.s:2280   .text.HAL_RCC_ClockConfig:0000000000000000 HAL_RCC_ClockConfig
+     /tmp/ccpRDcBg.s:2677   .text.HAL_RCC_ClockConfig:0000000000000200 $d
+     /tmp/ccpRDcBg.s:2687   .text.HAL_RCC_GetHCLKFreq:0000000000000000 $t
+     /tmp/ccpRDcBg.s:2694   .text.HAL_RCC_GetHCLKFreq:0000000000000000 HAL_RCC_GetHCLKFreq
+     /tmp/ccpRDcBg.s:2709   .text.HAL_RCC_GetHCLKFreq:0000000000000008 $d
+     /tmp/ccpRDcBg.s:2714   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 $t
+     /tmp/ccpRDcBg.s:2721   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 HAL_RCC_GetPCLK1Freq
+     /tmp/ccpRDcBg.s:2752   .text.HAL_RCC_GetPCLK1Freq:000000000000001c $d
+     /tmp/ccpRDcBg.s:2758   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 $t
+     /tmp/ccpRDcBg.s:2765   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 HAL_RCC_GetPCLK2Freq
+     /tmp/ccpRDcBg.s:2796   .text.HAL_RCC_GetPCLK2Freq:000000000000001c $d
+     /tmp/ccpRDcBg.s:2802   .text.HAL_RCC_GetOscConfig:0000000000000000 $t
+     /tmp/ccpRDcBg.s:2809   .text.HAL_RCC_GetOscConfig:0000000000000000 HAL_RCC_GetOscConfig
+     /tmp/ccpRDcBg.s:3071   .text.HAL_RCC_GetOscConfig:0000000000000128 $d
+     /tmp/ccpRDcBg.s:3077   .text.HAL_RCC_GetClockConfig:0000000000000000 $t
+     /tmp/ccpRDcBg.s:3084   .text.HAL_RCC_GetClockConfig:0000000000000000 HAL_RCC_GetClockConfig
+     /tmp/ccpRDcBg.s:3170   .text.HAL_RCC_GetClockConfig:0000000000000058 $d
+     /tmp/ccpRDcBg.s:3177   .text.HAL_RCC_EnableCSS:0000000000000000 $t
+     /tmp/ccpRDcBg.s:3184   .text.HAL_RCC_EnableCSS:0000000000000000 HAL_RCC_EnableCSS
+     /tmp/ccpRDcBg.s:3201   .text.HAL_RCC_EnableCSS:000000000000000c $d
+     /tmp/ccpRDcBg.s:3206   .text.HAL_RCC_CSSCallback:0000000000000000 $t
+     /tmp/ccpRDcBg.s:3213   .text.HAL_RCC_CSSCallback:0000000000000000 HAL_RCC_CSSCallback
+     /tmp/ccpRDcBg.s:3226   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 $t
+     /tmp/ccpRDcBg.s:3233   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 HAL_RCC_NMI_IRQHandler
+     /tmp/ccpRDcBg.s:3267   .text.HAL_RCC_NMI_IRQHandler:000000000000001c $d
 
 UNDEFINED SYMBOLS
 HAL_PWREx_GetVoltageRange
@@ -6373,7 +6373,7 @@ SystemCoreClock
 uwTickPrio
 HAL_GPIO_Init
 assert_failed
-ARM GAS  /tmp/ccmNJ9sq.s 			page 108
+ARM GAS  /tmp/ccpRDcBg.s 			page 108
 
 
 MSIRangeTable

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmQHGL8.s 			page 1
+ARM GAS  /tmp/ccGNAaG8.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		.loc 1 23 46 is_stmt 0 view .LVU1
   35 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/ccmQHGL8.s 			page 2
+ARM GAS  /tmp/ccGNAaG8.s 			page 2
 
 
   36              	.LCFI0:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
   83 0000 0228     		cmp	r0, #2
   84 0002 01D8     		bhi	.L12
   33:Src/retarget.c ****     return 1;
-ARM GAS  /tmp/ccmQHGL8.s 			page 3
+ARM GAS  /tmp/ccGNAaG8.s 			page 3
 
 
   85              		.loc 1 33 12 view .LVU11
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
  130              		.cfi_def_cfa_offset 8
  131              		.cfi_offset 4, -8
  132              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccmQHGL8.s 			page 4
+ARM GAS  /tmp/ccGNAaG8.s 			page 4
 
 
   40:Src/retarget.c ****   HAL_StatusTypeDef hstatus;
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
   50:Src/retarget.c **** }
  172              		.loc 1 50 10 is_stmt 0 view .LVU36
  173 0026 4FF0FF30 		mov	r0, #-1
-ARM GAS  /tmp/ccmQHGL8.s 			page 5
+ARM GAS  /tmp/ccGNAaG8.s 			page 5
 
 
  174 002a F7E7     		b	.L13
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
  219              		.cfi_offset 3, -8
  220              		.cfi_offset 14, -4
   57:Src/retarget.c ****   return -1;
-ARM GAS  /tmp/ccmQHGL8.s 			page 6
+ARM GAS  /tmp/ccGNAaG8.s 			page 6
 
 
  221              		.loc 1 57 3 is_stmt 1 view .LVU45
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
   68:Src/retarget.c **** }
  266              		.loc 1 68 1 is_stmt 0 view .LVU58
  267 000a 4FF0FF30 		mov	r0, #-1
-ARM GAS  /tmp/ccmQHGL8.s 			page 7
+ARM GAS  /tmp/ccGNAaG8.s 			page 7
 
 
  268 000e 08BD     		pop	{r3, pc}
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
   77:Src/retarget.c ****     else
   78:Src/retarget.c ****       return EIO;
   79:Src/retarget.c ****   }
-ARM GAS  /tmp/ccmQHGL8.s 			page 8
+ARM GAS  /tmp/ccGNAaG8.s 			page 8
 
 
   80:Src/retarget.c ****   errno = EBADF;
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
  361              	.LCFI6:
  362              		.cfi_def_cfa_offset 8
  363              		.cfi_offset 3, -8
-ARM GAS  /tmp/ccmQHGL8.s 			page 9
+ARM GAS  /tmp/ccGNAaG8.s 			page 9
 
 
  364              		.cfi_offset 14, -4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
  409              		.file 8 "/usr/arm-none-eabi/include/sys/_stdint.h"
  410              		.file 9 "/usr/arm-none-eabi/include/sys/_timespec.h"
  411              		.file 10 "/usr/arm-none-eabi/include/sys/types.h"
-ARM GAS  /tmp/ccmQHGL8.s 			page 10
+ARM GAS  /tmp/ccGNAaG8.s 			page 10
 
 
  412              		.file 11 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h"
@@ -548,30 +548,30 @@ ARM GAS  /tmp/ccmQHGL8.s 			page 1
  416              		.file 15 "/usr/arm-none-eabi/include/sys/stat.h"
  417              		.file 16 "/usr/arm-none-eabi/include/sys/errno.h"
  418              		.file 17 "/usr/arm-none-eabi/include/stdio.h"
-ARM GAS  /tmp/ccmQHGL8.s 			page 11
+ARM GAS  /tmp/ccGNAaG8.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 retarget.c
-     /tmp/ccmQHGL8.s:18     .text.RetargetInit:0000000000000000 $t
-     /tmp/ccmQHGL8.s:26     .text.RetargetInit:0000000000000000 RetargetInit
-     /tmp/ccmQHGL8.s:61     .text.RetargetInit:0000000000000018 $d
-     /tmp/ccmQHGL8.s:67     .text._isatty:0000000000000000 $t
-     /tmp/ccmQHGL8.s:74     .text._isatty:0000000000000000 _isatty
-     /tmp/ccmQHGL8.s:113    .text._write:0000000000000000 $t
-     /tmp/ccmQHGL8.s:120    .text._write:0000000000000000 _write
-     /tmp/ccmQHGL8.s:185    .text._write:0000000000000030 $d
-     /tmp/ccmQHGL8.s:190    .text._close:0000000000000000 $t
-     /tmp/ccmQHGL8.s:197    .text._close:0000000000000000 _close
-     /tmp/ccmQHGL8.s:236    .text._lseek:0000000000000000 $t
-     /tmp/ccmQHGL8.s:243    .text._lseek:0000000000000000 _lseek
-     /tmp/ccmQHGL8.s:273    .text._read:0000000000000000 $t
-     /tmp/ccmQHGL8.s:280    .text._read:0000000000000000 _read
-     /tmp/ccmQHGL8.s:340    .text._read:000000000000002c $d
-     /tmp/ccmQHGL8.s:345    .text._fstat:0000000000000000 $t
-     /tmp/ccmQHGL8.s:352    .text._fstat:0000000000000000 _fstat
-     /tmp/ccmQHGL8.s:399    .bss.gHuart:0000000000000000 gHuart
-     /tmp/ccmQHGL8.s:395    .bss.gHuart:0000000000000000 $d
+     /tmp/ccGNAaG8.s:18     .text.RetargetInit:0000000000000000 $t
+     /tmp/ccGNAaG8.s:26     .text.RetargetInit:0000000000000000 RetargetInit
+     /tmp/ccGNAaG8.s:61     .text.RetargetInit:0000000000000018 $d
+     /tmp/ccGNAaG8.s:67     .text._isatty:0000000000000000 $t
+     /tmp/ccGNAaG8.s:74     .text._isatty:0000000000000000 _isatty
+     /tmp/ccGNAaG8.s:113    .text._write:0000000000000000 $t
+     /tmp/ccGNAaG8.s:120    .text._write:0000000000000000 _write
+     /tmp/ccGNAaG8.s:185    .text._write:0000000000000030 $d
+     /tmp/ccGNAaG8.s:190    .text._close:0000000000000000 $t
+     /tmp/ccGNAaG8.s:197    .text._close:0000000000000000 _close
+     /tmp/ccGNAaG8.s:236    .text._lseek:0000000000000000 $t
+     /tmp/ccGNAaG8.s:243    .text._lseek:0000000000000000 _lseek
+     /tmp/ccGNAaG8.s:273    .text._read:0000000000000000 $t
+     /tmp/ccGNAaG8.s:280    .text._read:0000000000000000 _read
+     /tmp/ccGNAaG8.s:340    .text._read:000000000000002c $d
+     /tmp/ccGNAaG8.s:345    .text._fstat:0000000000000000 $t
+     /tmp/ccGNAaG8.s:352    .text._fstat:0000000000000000 _fstat
+     /tmp/ccGNAaG8.s:399    .bss.gHuart:0000000000000000 gHuart
+     /tmp/ccGNAaG8.s:395    .bss.gHuart:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 setvbuf

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccxgP7py.s 			page 1
+ARM GAS  /tmp/cccOkRhs.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
   18:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         (++) Input mode
   19:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         (++) Analog mode
   20:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         (++) Output mode
-ARM GAS  /tmp/ccxgP7py.s 			page 2
+ARM GAS  /tmp/cccOkRhs.s 			page 2
 
 
   21:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         (++) Alternate function mode
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
   75:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
   76:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****    (#) To lock pin configuration until next reset use HAL_GPIO_LockPin().
   77:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
-ARM GAS  /tmp/ccxgP7py.s 			page 3
+ARM GAS  /tmp/cccOkRhs.s 			page 3
 
 
   78:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (#) During and just after reset, the alternate functions are not
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  132:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define EXTI_MODE             (0x10000000u)
  133:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define GPIO_MODE_IT          (0x00010000u)
  134:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define GPIO_MODE_EVT         (0x00020000u)
-ARM GAS  /tmp/ccxgP7py.s 			page 4
+ARM GAS  /tmp/cccOkRhs.s 			page 4
 
 
  135:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define RISING_EDGE           (0x00100000u)
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
   50              		.cfi_offset 14, -4
   51 0004 82B0     		sub	sp, sp, #8
   52              	.LCFI1:
-ARM GAS  /tmp/ccxgP7py.s 			page 5
+ARM GAS  /tmp/cccOkRhs.s 			page 5
 
 
   53              		.cfi_def_cfa_offset 40
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  181:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   assert_param(IS_GPIO_MODE(GPIO_Init->Mode));
  100              		.loc 1 181 3 is_stmt 1 view .LVU15
  101 0042 6368     		ldr	r3, [r4, #4]
-ARM GAS  /tmp/ccxgP7py.s 			page 6
+ARM GAS  /tmp/cccOkRhs.s 			page 6
 
 
  102 0044 012B     		cmp	r3, #1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  189:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  190:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     if (iocurrent != 0x00u)
  191:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     {
-ARM GAS  /tmp/ccxgP7py.s 			page 7
+ARM GAS  /tmp/cccOkRhs.s 			page 7
 
 
  192:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       /*--------------------- GPIO Mode Configuration ------------------------*/
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  246:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       /* Activate the Pull-up or Pull down resistor for the current IO */
  247:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp = GPIOx->PUPDR;
  248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp &= ~(GPIO_PUPDR_PUPD0 << (position * 2u));
-ARM GAS  /tmp/ccxgP7py.s 			page 8
+ARM GAS  /tmp/cccOkRhs.s 			page 8
 
 
  249:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp |= ((GPIO_Init->Pull) << (position * 2u));
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  182 00b8 06F00703 		and	r3, r6, #7
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp |= ((GPIO_Init->Alternate) << ((position & 0x07u) * 4u));
  183              		.loc 1 202 47 view .LVU37
-ARM GAS  /tmp/ccxgP7py.s 			page 9
+ARM GAS  /tmp/cccOkRhs.s 			page 9
 
 
  184 00bc 9900     		lsls	r1, r3, #2
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  221 00e4 6368     		ldr	r3, [r4, #4]
  210:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       GPIOx->MODER = temp;
  222              		.loc 1 210 33 view .LVU55
-ARM GAS  /tmp/ccxgP7py.s 			page 10
+ARM GAS  /tmp/cccOkRhs.s 			page 10
 
 
  223 00e6 03F00303 		and	r3, r3, #3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  222:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         GPIOx->OSPEEDR = temp;
  262              		.loc 1 222 9 is_stmt 1 view .LVU71
  222:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         GPIOx->OSPEEDR = temp;
-ARM GAS  /tmp/ccxgP7py.s 			page 11
+ARM GAS  /tmp/cccOkRhs.s 			page 11
 
 
  263              		.loc 1 222 27 is_stmt 0 view .LVU72
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp |= ((GPIO_Init->Pull) << (position * 2u));
  300              		.loc 1 248 7 is_stmt 1 view .LVU90
  248:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp |= ((GPIO_Init->Pull) << (position * 2u));
-ARM GAS  /tmp/ccxgP7py.s 			page 12
+ARM GAS  /tmp/cccOkRhs.s 			page 12
 
 
  301              		.loc 1 248 12 is_stmt 0 view .LVU91
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  339              		.loc 1 259 9 view .LVU107
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp &= ~(0x0FuL << (4u * (position & 0x03u)));
  340              		.loc 1 259 40 is_stmt 0 view .LVU108
-ARM GAS  /tmp/ccxgP7py.s 			page 13
+ARM GAS  /tmp/cccOkRhs.s 			page 13
 
 
  341 015c B208     		lsrs	r2, r6, #2
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  385 0196 394B     		ldr	r3, .L32+20
  386              	.LVL33:
  387              		.loc 1 265 14 discriminator 12 view .LVU126
-ARM GAS  /tmp/ccxgP7py.s 			page 14
+ARM GAS  /tmp/cccOkRhs.s 			page 14
 
 
  388 0198 1A68     		ldr	r2, [r3]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  278:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         }
  279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         EXTI->EMR1 = temp;
  430              		.loc 1 279 9 is_stmt 1 view .LVU146
-ARM GAS  /tmp/ccxgP7py.s 			page 15
+ARM GAS  /tmp/cccOkRhs.s 			page 15
 
 
  431              		.loc 1 279 20 is_stmt 0 view .LVU147
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  294:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****           temp |= iocurrent;
  471              		.loc 1 294 11 is_stmt 1 view .LVU166
  472              		.loc 1 294 16 is_stmt 0 view .LVU167
-ARM GAS  /tmp/ccxgP7py.s 			page 16
+ARM GAS  /tmp/cccOkRhs.s 			page 16
 
 
  473 01e8 45EA0203 		orr	r3, r5, r2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  194:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       {
  510              		.loc 1 194 47 discriminator 1 view .LVU183
  511 020e 122B     		cmp	r3, #18
-ARM GAS  /tmp/ccxgP7py.s 			page 17
+ARM GAS  /tmp/cccOkRhs.s 			page 17
 
 
  512 0210 7FF45EAF 		bne	.L10
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  557 025a 0023     		movs	r3, #0
  558 025c 95E7     		b	.L16
  559              	.L23:
-ARM GAS  /tmp/ccxgP7py.s 			page 18
+ARM GAS  /tmp/cccOkRhs.s 			page 18
 
 
  560 025e 0123     		movs	r3, #1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  604              		.cfi_offset 4, -20
  605              		.cfi_offset 5, -16
  606              		.cfi_offset 6, -12
-ARM GAS  /tmp/ccxgP7py.s 			page 19
+ARM GAS  /tmp/cccOkRhs.s 			page 19
 
 
  607              		.cfi_offset 7, -8
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  320:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  321:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   /* Configure the port pins */
  322:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   while ((GPIO_Pin >> position) != 0x00u)
-ARM GAS  /tmp/ccxgP7py.s 			page 20
+ARM GAS  /tmp/cccOkRhs.s 			page 20
 
 
  323:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   {
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  680              		.loc 1 350 20 view .LVU218
  681 0060 0843     		orrs	r0, r0, r1
  682 0062 2060     		str	r0, [r4]
-ARM GAS  /tmp/ccxgP7py.s 			page 21
+ARM GAS  /tmp/cccOkRhs.s 			page 21
 
 
  351:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  717              		.loc 1 370 13 is_stmt 0 view .LVU233
  718 009e 0133     		adds	r3, r3, #1
  719              	.LVL66:
-ARM GAS  /tmp/ccxgP7py.s 			page 22
+ARM GAS  /tmp/cccOkRhs.s 			page 22
 
 
  720              	.L38:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  334:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       {
  758              		.loc 1 334 19 discriminator 1 view .LVU250
  759 00d0 DFF850C0 		ldr	ip, .L50
-ARM GAS  /tmp/ccxgP7py.s 			page 23
+ARM GAS  /tmp/cccOkRhs.s 			page 23
 
 
  760 00d4 6445     		cmp	r4, ip
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  800              		.loc 1 345 9 view .LVU264
  345:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       }
  801              		.loc 1 345 40 is_stmt 0 view .LVU265
-ARM GAS  /tmp/ccxgP7py.s 			page 24
+ARM GAS  /tmp/cccOkRhs.s 			page 24
 
 
  802 010e 074E     		ldr	r6, .L50+8
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  391:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @brief  Read the specified input port pin.
  392:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @param  GPIOx: where x can be (A..H) to select the GPIO peripheral for STM32L4 family
  393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @param  GPIO_Pin: specifies the port bit to read.
-ARM GAS  /tmp/ccxgP7py.s 			page 25
+ARM GAS  /tmp/cccOkRhs.s 			page 25
 
 
  394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   *         This parameter can be any combination of GPIO_Pin_x where x can be (0..15).
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  402:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  871              		.loc 1 402 3 discriminator 3 view .LVU279
  872 0012 4FF4C971 		mov	r1, #402
-ARM GAS  /tmp/ccxgP7py.s 			page 26
+ARM GAS  /tmp/cccOkRhs.s 			page 26
 
 
  873              	.LVL81:
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  907              		.loc 1 432 1 is_stmt 0 view .LVU284
  908 0000 70B5     		push	{r4, r5, r6, lr}
  909              	.LCFI5:
-ARM GAS  /tmp/ccxgP7py.s 			page 27
+ARM GAS  /tmp/cccOkRhs.s 			page 27
 
 
  910              		.cfi_def_cfa_offset 16
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  947 001e F4E7     		b	.L63
  948              	.L69:
  435:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
-ARM GAS  /tmp/ccxgP7py.s 			page 28
+ARM GAS  /tmp/cccOkRhs.s 			page 28
 
 
  949              		.loc 1 435 3 discriminator 1 view .LVU296
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  992              		.loc 1 456 3 is_stmt 1 view .LVU302
  993 0004 0D46     		mov	r5, r1
  994 0006 21B1     		cbz	r1, .L78
-ARM GAS  /tmp/ccxgP7py.s 			page 29
+ARM GAS  /tmp/cccOkRhs.s 			page 29
 
 
  995              	.LVL92:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  1035              		.align	1
  1036              		.global	HAL_GPIO_LockPin
  1037              		.syntax unified
-ARM GAS  /tmp/ccxgP7py.s 			page 30
+ARM GAS  /tmp/cccOkRhs.s 			page 30
 
 
  1038              		.thumb
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  1075 0020 08D0     		beq	.L82
  1076              		.loc 1 484 3 discriminator 3 view .LVU322
  1077 0022 03F5A053 		add	r3, r3, #5120
-ARM GAS  /tmp/ccxgP7py.s 			page 31
+ARM GAS  /tmp/cccOkRhs.s 			page 31
 
 
  1078 0026 9842     		cmp	r0, r3
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  1117              		.loc 1 499 6 view .LVU340
  1118 004c 13F4803F 		tst	r3, #65536
  1119 0050 08D0     		beq	.L86
-ARM GAS  /tmp/ccxgP7py.s 			page 32
+ARM GAS  /tmp/cccOkRhs.s 			page 32
 
 
  500:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   {
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  511:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @param  GPIO_Pin Specifies the port pin connected to corresponding EXTI line.
  512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @retval None
  513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   */
-ARM GAS  /tmp/ccxgP7py.s 			page 33
+ARM GAS  /tmp/cccOkRhs.s 			page 33
 
 
  514:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  1193              		.cfi_offset 3, -8
  1194              		.cfi_offset 14, -4
  517:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   {
-ARM GAS  /tmp/ccxgP7py.s 			page 34
+ARM GAS  /tmp/cccOkRhs.s 			page 34
 
 
  1195              		.loc 1 517 3 is_stmt 1 view .LVU350
@@ -2022,35 +2022,35 @@ ARM GAS  /tmp/ccxgP7py.s 			page 1
  1228              		.file 5 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  1229              		.file 6 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  1230              		.file 7 "Inc/stm32l4xx_hal_conf.h"
-ARM GAS  /tmp/ccxgP7py.s 			page 35
+ARM GAS  /tmp/cccOkRhs.s 			page 35
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_gpio.c
-     /tmp/ccxgP7py.s:18     .rodata.HAL_GPIO_Init.str1.4:0000000000000000 $d
-     /tmp/ccxgP7py.s:23     .text.HAL_GPIO_Init:0000000000000000 $t
-     /tmp/ccxgP7py.s:31     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
-     /tmp/ccxgP7py.s:575    .text.HAL_GPIO_Init:0000000000000268 $d
-     /tmp/ccxgP7py.s:585    .text.HAL_GPIO_DeInit:0000000000000000 $t
-     /tmp/ccxgP7py.s:592    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
-     /tmp/ccxgP7py.s:819    .text.HAL_GPIO_DeInit:0000000000000124 $d
-     /tmp/ccxgP7py.s:827    .text.HAL_GPIO_ReadPin:0000000000000000 $t
-     /tmp/ccxgP7py.s:834    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
-     /tmp/ccxgP7py.s:888    .text.HAL_GPIO_ReadPin:0000000000000024 $d
-     /tmp/ccxgP7py.s:893    .text.HAL_GPIO_WritePin:0000000000000000 $t
-     /tmp/ccxgP7py.s:900    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
-     /tmp/ccxgP7py.s:964    .text.HAL_GPIO_WritePin:0000000000000030 $d
-     /tmp/ccxgP7py.s:969    .text.HAL_GPIO_TogglePin:0000000000000000 $t
-     /tmp/ccxgP7py.s:976    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
-     /tmp/ccxgP7py.s:1030   .text.HAL_GPIO_TogglePin:0000000000000024 $d
-     /tmp/ccxgP7py.s:1035   .text.HAL_GPIO_LockPin:0000000000000000 $t
-     /tmp/ccxgP7py.s:1042   .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
-     /tmp/ccxgP7py.s:1147   .text.HAL_GPIO_LockPin:0000000000000068 $d
-     /tmp/ccxgP7py.s:1153   .text.HAL_GPIO_EXTI_Callback:0000000000000000 $t
-     /tmp/ccxgP7py.s:1160   .text.HAL_GPIO_EXTI_Callback:0000000000000000 HAL_GPIO_EXTI_Callback
-     /tmp/ccxgP7py.s:1175   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
-     /tmp/ccxgP7py.s:1182   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
-     /tmp/ccxgP7py.s:1219   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000018 $d
+     /tmp/cccOkRhs.s:18     .rodata.HAL_GPIO_Init.str1.4:0000000000000000 $d
+     /tmp/cccOkRhs.s:23     .text.HAL_GPIO_Init:0000000000000000 $t
+     /tmp/cccOkRhs.s:31     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
+     /tmp/cccOkRhs.s:575    .text.HAL_GPIO_Init:0000000000000268 $d
+     /tmp/cccOkRhs.s:585    .text.HAL_GPIO_DeInit:0000000000000000 $t
+     /tmp/cccOkRhs.s:592    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
+     /tmp/cccOkRhs.s:819    .text.HAL_GPIO_DeInit:0000000000000124 $d
+     /tmp/cccOkRhs.s:827    .text.HAL_GPIO_ReadPin:0000000000000000 $t
+     /tmp/cccOkRhs.s:834    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
+     /tmp/cccOkRhs.s:888    .text.HAL_GPIO_ReadPin:0000000000000024 $d
+     /tmp/cccOkRhs.s:893    .text.HAL_GPIO_WritePin:0000000000000000 $t
+     /tmp/cccOkRhs.s:900    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
+     /tmp/cccOkRhs.s:964    .text.HAL_GPIO_WritePin:0000000000000030 $d
+     /tmp/cccOkRhs.s:969    .text.HAL_GPIO_TogglePin:0000000000000000 $t
+     /tmp/cccOkRhs.s:976    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
+     /tmp/cccOkRhs.s:1030   .text.HAL_GPIO_TogglePin:0000000000000024 $d
+     /tmp/cccOkRhs.s:1035   .text.HAL_GPIO_LockPin:0000000000000000 $t
+     /tmp/cccOkRhs.s:1042   .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
+     /tmp/cccOkRhs.s:1147   .text.HAL_GPIO_LockPin:0000000000000068 $d
+     /tmp/cccOkRhs.s:1153   .text.HAL_GPIO_EXTI_Callback:0000000000000000 $t
+     /tmp/cccOkRhs.s:1160   .text.HAL_GPIO_EXTI_Callback:0000000000000000 HAL_GPIO_EXTI_Callback
+     /tmp/cccOkRhs.s:1175   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
+     /tmp/cccOkRhs.s:1182   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
+     /tmp/cccOkRhs.s:1219   .text.HAL_GPIO_EXTI_IRQHandler:0000000000000018 $d
 
 UNDEFINED SYMBOLS
 assert_failed
